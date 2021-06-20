@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_amadeirado"
+    android:orientation="vertical"
+    tools:context=".FacaPedidos_Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="@color/black"
+        android:minHeight="?actionBarSize"
+        android:theme="?actionBarTheme"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:shadowColor="#880A0A"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="20"
+        android:text="Cardápio"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="75dp"
+        android:backgroundTint="#880A0A"
+        android:textStyle="bold"
+        android:text="Pizzas"
+        android:id="@+id/btnPizzaG"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="75dp"
+        android:backgroundTint="#880A0A"
+        android:textStyle="bold"
+        android:text="Bebidas"
+        android:id="@+id/btnBebidas"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="75dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/black"
+        android:textStyle="bold"
+        android:text="Promoções"
+        android:drawableLeft="@drawable/baseline_star"
+        android:id="@+id/btnPromocoes"/>
+
+
+</LinearLayout>

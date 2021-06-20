@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.local.loiola_delivery_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Loiola_delivery_app">
+        <activity android:name=".TabBebidas_Activity"></activity>
+        <activity android:name=".Promocoes_Activity" />
+        <activity android:name=".TabPizza_Activity" />
+        <activity android:name=".RecyclerPizza_Activity" />
+        <activity android:name=".main_activity" />
+        <activity
+            android:name=".FacaPedidos_Activity"
+            android:parentActivityName=".Pedidos_Activity" />
+        <activity android:name=".HorarioFuncionamento_Activity" />
+        <activity android:name=".Informacoes_Activity" />
+        <activity android:name=".MeusPedidos_Activity" />
+        <activity
+            android:name=".Pedidos_Activity"
+            android:theme="@style/temaSemBarra">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Splash_Activity" />
+    </application>
+
+</manifest>

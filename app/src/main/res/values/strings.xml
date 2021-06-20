@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Loiola_delivery_app</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="NomePizzas">
+        <item>Muçarela</item>
+        <item>Marguerita</item>
+        <item>4 Queijos</item>
+        <item>Bacon</item>
+        <item>Calabresa</item>
+        <item>Baiana</item>
+        <item>Americana</item>
+        <item>Bauru</item>
+        <item>Portuguesa</item>
+        <item>Peperone</item>
+        <item>Lombo</item>
+        <item>Peru</item>
+        <item>Nordestina</item>
+        <item>Atum</item>
+        <item>Camarão</item>
+        <item>Escarola</item>
+        <item>Brócolis</item>
+        <item>Palmito</item>
+        <item>Frango com Catupiry</item>
+        <item>A Moda da Casa</item>
+    </string-array>
+
+
+    <string-array name="DescricaoPizzas">
+        <item>MOLHO DE TOMATE, MUÇARELA, ORÉGANO E AZEITONAS.</item>
+        <item>MOLHO DE TOMATE, MUÇARELA, MANJERICÃO, PARMESÃO RALADO E TOMATE.</item>
+        <item>MOLHO DE TOMATE, CATUPIRY, MUÇARELA, PROVOLONE E PARMESÃO RALADO.</item>
+        <item>MOLHO DE TOMATE, MUÇARELA E BACON.</item>
+        <item>MOLHO DE TOMATE, CALABRESA E CEBOLA.</item>
+        <item>MOLHO DE TOMATE, CALABRESA MOÍDA, OVOS, CEBOLA E PIMENTA.</item>
+        <item>MOLHO DE TOMATE, PRESUNTO MOÍDO, OVOS, MUÇARELA E BACON.</item>
+        <item>MOLHO DE TOMATE, PRESUNTO, MUÇARELA E TOMATE.</item>
+        <item>MOLHO DE TOMATE, PRESUNTO, OVOS, MILHO, ERVILHA, PALMITO, MUÇARELA E BACON.</item>
+        <item>MOLHO DE TOMATE, PEPERONE E MUÇARELA.</item>
+        <item>MOLHO DE TOMATE, LOMBO E MUÇARELA.</item>
+        <item>MOLHO DE TOMATE, PEITO DE PERU E MUÇARELA.</item>
+        <item>MOLHO DE TOMATE, CARNE SECA, CEBOLA, MUÇARELA E BACON.</item>
+        <item>MOLHO DE TOMATE, ATUM E MUÇARELA.</item>
+        <item>MOLHO DE TOMATE, CAMARÃO, PALMITO E MUÇARELA.</item>
+        <item>MOLHO DE TOMATE, ESCAROLA, CEBOLA, CHAMPINGNON E MUÇARELA.</item>
+        <item>MOLHO DE TOMATE, BRÓCOLIS, CEBOLA, PALMITO E MUÇARELA.</item>
+        <item>MOLHO DE TOMATE, PALMITO E MUÇARELA.</item>
+        <item>MOLHO DE TOMATE, FRANGO E CATUPIRY</item>
+        <item>MOLHO DE TOMATE, PRESUNTO, AZEITONAS FATIADAS, BACON E MUÇARELA.</item>
+
+
+    </string-array>
+
+    <string-array name="ValoresPizzas">
+        <item>R$35,90</item>
+        <item>R$44,50</item>
+        <item>R$39,90</item>
+        <item>R$42,00</item>
+        <item>R$35,50</item>
+        <item>R$38,90</item>
+        <item>R$40,00</item>
+        <item>R$36,60 </item>
+        <item>R$34,50</item>
+        <item>R$38,00</item>
+        <item>R$40,00</item>
+        <item>R$45,80</item>
+        <item>R$50,00</item>
+        <item>R$45,00</item>
+        <item>R$39,80</item>
+        <item>R$37,50</item>
+        <item>R$50,90</item>
+        <item>R$34,50</item>
+        <item>R$36,80</item>
+        <item>R$30,00</item>
+
+
+    </string-array>
+
+
+</resources>
